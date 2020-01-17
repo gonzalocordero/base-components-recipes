@@ -10,6 +10,7 @@ import { LightningElement, api } from 'lwc';
 export default class cBadge extends LightningElement {
     @api label;
     @api iconName;
+    @api size;
 
     connectedCallback() {
         this.classList.add('slds-badge');
